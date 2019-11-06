@@ -1,2 +1,2 @@
-# New-app-JS
+# newAppJS
 Agenda de contatos, Stack JS.

@@ -1,0 +1,20 @@
+{
+  "name": "newAppJS",
+  "version": "1.0.0",
+  "description": "Agenda de contatos, Stack JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codfect/New-app-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codfect/New-app-JS/issues"
+  },
+  "homepage": "https://github.com/Codfect/New-app-JS#readme"
+}
