@@ -2,7 +2,7 @@
   "name": "newappjs",
   "version": "1.0.0",
   "description": "Agenda de contatos, Stack JS.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Codfect/New-app-JS#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }
