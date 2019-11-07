@@ -1,4 +1,4 @@
-//chamada express, e subscrição na const app
+//Carrega o express, e subscreve na const app
 const express = require('express')
 const app = express()
 app.use(express.urlencoded({extended: true})) //Definir o conteúdo de request, usando req.body
