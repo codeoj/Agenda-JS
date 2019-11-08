@@ -9,5 +9,3 @@ const homePageController = require('./src/controllers/homePageController')
 //usando as funções dos modulos. Rotas CRUD
 //Rotas home
 route.get('/', homePageController.funcaoHomePage)
-
-
