@@ -8,7 +8,7 @@ app.use(express.urlencoded({extended: true})) //Definir o conteúdo de request, 
 
 //Configurando a view engine
 app.set('views', path.resolve(__dirname, 'src', 'views'))
-app.set('view engine', 'ejs')
+app.set('view engine', 'ejs') 
 
 app.use(routes) //Faz com que o express use as suas rotas
 
