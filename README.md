@@ -1,2 +1,2 @@
 # New App JS
-Agenda de contatos, Stack JS.
+*Agenda de contatos JS*
