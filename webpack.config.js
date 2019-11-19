@@ -1,4 +1,4 @@
-const path = require('path'); // CommonJS
+const path = require('path')
 
 module.exports = {
   mode: 'production',
@@ -23,4 +23,4 @@ module.exports = {
     }]
   },
   devtool: 'source-map'
-};
+}
