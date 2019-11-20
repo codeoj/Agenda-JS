@@ -4,7 +4,8 @@
   "description": "Agenda de contatos, Stack JS.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js --ignore public --ignore frontend",
+    "starwp": "webpack -w"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,11 @@
   "homepage": "https://github.com/Codfect/New-app-JS#readme",
   "dependencies": {
     "ejs": "^2.7.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "core-js": "^3.3.2",
+    "css-loader": "^3.2.0",
+    "regenerator-runtime": "^0.13.3",
+    "style-loader": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.4",
