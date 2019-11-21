@@ -24,6 +24,7 @@
     "dotenv": "^8.2.0",
     "ejs": "^2.7.1",
     "express": "^4.17.1",
+    "mongoose": "^5.7.12",
     "regenerator-runtime": "^0.13.3",
     "style-loader": "^1.0.0"
   },
