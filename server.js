@@ -2,8 +2,10 @@
 const express = require('express')
 const app = express()
 const routes = require('./routes') //importando o modulo routes.js
+const Middleware = require('./src/middlewares/middleware') //importa o middleware global
 const path = require('path')
 
+app.use(express.static(path.resolve(__dirname, 'public')))
 app.use(express.urlencoded({extended: true})) //Definir o conteúdo de request, usando req.body
 
 //Configurando a view engine
