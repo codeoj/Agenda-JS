@@ -13,6 +13,7 @@ app.set('views', path.resolve(__dirname, 'src', 'views'))
 app.set('view engine', 'ejs') 
 
 app.use(routes) //Faz com que o express use as suas rotas
+app.use(Middleware)
 
 //Servidor sendo executado na porta 3001 localhost.
 app.listen(3001, () => { 
