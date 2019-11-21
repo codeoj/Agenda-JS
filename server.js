@@ -1,16 +1,19 @@
+require('dotenv').config()
+
 //Carrega o express, e subscreve na const app
 const express = require('express')
 const app = express()
 
 //Chamada, conexão, e string de conexão mongoose
 const mongoose = require('mongoose')
-const connectionString = 'mongodb+srv://Oliverjg:35269751@cluster0-kb5ca.mongodb.net/DATABASE?retryWrites=true&w=majority'
-mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect(process.env.CONNECTIONSTRING, { useNewUrlParser: true, useUnifiedTopology: true})
+
 //fazendo a conexão com a base de dados conectar antes de escutar o host
     .then(() => {
         console.log('A base de dados tem que conectar antes!')
         app.emit('pronto')
 })
+.catch(e => console.log(e))
 
 const routes = require('./routes') //importando o modulo routes.js
 const Middleware = require('./src/middlewares/middleware') //importa o middleware global
