@@ -1,7 +1,7 @@
 # Agenda JS
 Uma agenda com login de usuario, adicionar, excluir, editar.
 
-## Package dependencies  
+## Project Uses 
 
 * Dependencies
     * core-js
