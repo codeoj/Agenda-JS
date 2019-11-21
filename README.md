@@ -1,23 +1,8 @@
 # Agenda JS
 Uma agenda com login de usuario, adicionar, excluir, editar.
 
-Dependencies
-core-js
-css-loader
-dotenv
-ejs
-express
-mongoose
-regenerator-runtime
-style-loader
-    
-devDependencies
-nodemon
-babel
-webpack
-
-
 ## Getting Started
+This project uses express, mongoose, webpack
 ```
 # Clone this repository
 $ https://github.com/Codfect/Agenda-JS.git
