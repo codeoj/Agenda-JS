@@ -28,7 +28,7 @@ $ https://github.com/Codfect/Agenda-JS.git
 $ npm i
 
 # Run the project
-$ node server.js
+$ npm start
 $ npm run starwp
 
 ```
