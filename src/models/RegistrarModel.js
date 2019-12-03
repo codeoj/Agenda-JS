@@ -1,8 +1,9 @@
 const mongoose = require('mongoose')
 
 const RegistrarSchema = new mongoose.Schema({
-    titulo: {type: String, required: true},
-    descricao: String
+    nome: {type: String, required: true},
+    email: {type: String, required: true},
+    senha: {type: String, required: true}
 })
 
 const RegistrarModel = mongoose.model('Registrar', RegistrarSchema) //Nome do model e schema
