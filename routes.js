@@ -12,7 +12,9 @@ module.exports = route //exportando o route, que contem todas as rotas, para o m
 //Rotas home
 route.get('/', homePageController.index)
 
-//Rotas login e registrar
+//Rotas login
 route.get('/login', loginPageController.index)
 
+//Rotas registrar
 route.get('/registrar', registrarPageController.index)
+route.post('/registrar', registrarPageController.registrar)
