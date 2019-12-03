@@ -3,6 +3,7 @@ const route = express.Router() //Assim pode fazer o roteamento
 
 const homePageController = require('./src/controllers/homePageController')//Importando os modulos da pasta controllers
 const loginPageController = require('./src/controllers/loginPageController')
+const registrarPageController = require('./src/controllers/registrarPageController')
 
 module.exports = route //exportando o route, que contem todas as rotas, para o modulo server.js importa-lo
 
@@ -11,5 +12,7 @@ module.exports = route //exportando o route, que contem todas as rotas, para o m
 //Rotas home
 route.get('/', homePageController.index)
 
-//Rotas login
+//Rotas login e registrar
 route.get('/login', loginPageController.index)
+
+route.get('/registrar', registrarPageController.index)
